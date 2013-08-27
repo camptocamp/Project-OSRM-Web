@@ -20,10 +20,23 @@ or see http://www.gnu.org/licenses/agpl.txt.
 
 OSRM.DEFAULTS = {
 	ROUTING_ENGINES: [
-		{	url: 'http://router.project-osrm.org/viaroute',
-			timestamp: 'http://router.project-osrm.org/timestamp',
+		{	
+            url: 'http://mfusrgrp-re2013.demo-camptocamp.com/car/viaroute',
+			timestamp: 'http://mfusrgrp-re2013.demo-camptocamp.com/car/timestamp',
 			metric: 0,
-			label: 'ENGINE_0',
+			label: 'Car',
+		},
+		{	
+            url: 'http://mfusrgrp-re2013.demo-camptocamp.com/bicycle/viaroute',
+			timestamp: 'http://mfusrgrp-re2013.demo-camptocamp.com/bicycle/timestamp',
+			metric: 0,
+			label: 'Bicycle',
+		},
+		{	
+            url: 'http://mfusrgrp-re2013.demo-camptocamp.com/foot/viaroute',
+			timestamp: 'http://mfusrgrp-re2013.demo-camptocamp.com/foot/timestamp',
+			metric: 0,
+			label: 'Foot',
 		}
 	],
 	
